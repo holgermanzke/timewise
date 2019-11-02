@@ -1,0 +1,25 @@
+{
+  "name": "timewise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holgermanzke/timewise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holgermanzke/timewise/issues"
+  },
+  "homepage": "https://github.com/holgermanzke/timewise#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.3"
+  }
+}
