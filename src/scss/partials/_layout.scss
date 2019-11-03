@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 100%;
   max-width: 450px;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ main {
 .entry {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px solid $color-pine;
+  border-bottom: 1px solid $color-pine;
   padding: 5px;
   color: $color-white;
 }
