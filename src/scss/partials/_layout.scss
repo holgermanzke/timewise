@@ -27,17 +27,37 @@ header {
   background: $color-pine;
   color: $color-white;
 }
-.container {
-  background: blue;
-  height: 80%;
+
+main {
+  flex-grow: 1;
+  background: $color-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid $color-pine;
+  padding: 5px;
+  color: $color-white;
+}
+.sum {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-top: 3px double $color-pine;
+  color: $color-white;
 }
 
 footer {
-  height: 10%;
+  // height: 10%;
   background: $color-red;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 15px 0;
   button {
     background: $color-green;
     color: $color-white;
